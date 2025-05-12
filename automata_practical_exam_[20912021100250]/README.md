@@ -7,8 +7,10 @@ ID:[20912021100250]
 
 Project Structure
 
-- `problem1_dfa_101/`: Contains the DFA design for the first problem. - the DFA and its state diagram are provided in the PDF file located at:
-  `problem1_dfa_101/DFA_Problem1_Solution.pdf`
+- `problem1_dfa_101/`: Contains the DFA design for the first problem. 
+ The detailed formal description of the DFA and its state diagram are provided in the PDF file located at:
+    `problem1_dfa_101/DFA_Problem1_Solution.pdf` 
+    A Python script `dfa_101_simulator.py` is also provided in the `problem1_dfa_101/` folder to simulate the designed DFA.
 
 - `problem2_cfg_to_gnf/`: Contains the Python program for converting Context-Free Grammars (CFG) to Greibach Normal Form (GNF).
 
@@ -24,14 +26,22 @@ Project Structure
 
 - `requirements.txt`: Dependencies file (indicates no external libraries).
 
----
 
-Section 1: DFA Design
+---
+ Section 1: DFA Design
 
 Task Being Solved: Construct a DFA that accepts all binary strings where the substring "101" appears at least once.
 Solution Description and Diagram:
-The detailed formal description of the DFA and its state diagram are provided in the PDF file located at:
-`problem1_dfa_101/DFA_Problem1_Solution.pdf`
+    The detailed formal description of the DFA and its state diagram are provided in the PDF file located at:
+    `problem1_dfa_101/DFA_Problem1_Solution.pdf` 
+    A Python script `dfa_101_simulator.py` is also provided in the `problem1_dfa_101/` folder to simulate the designed DFA.
+How to run/test:
+    - The theoretical design can be verified by reviewing the design provided (in PDF or here).
+    - To run the DFA simulator with built-in test strings:
+      ```bash
+      cd problem1_dfa_101
+      python dfa_101_simulator.py
+      ```
 
 ---
 
